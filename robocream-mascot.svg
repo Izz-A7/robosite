@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+  <!-- Robot Head -->
+  <circle cx="200" cy="150" r="70" fill="#F0F0F0" /> <!-- White base -->
+  
+  <!-- Cat Ears -->
+  <path d="M 150 100 L 170 60 L 190 100 Z" fill="#0D1E3D" /> <!-- Left ear -->
+  <path d="M 210 100 L 230 60 L 250 100 Z" fill="#0D1E3D" /> <!-- Right ear -->
+  
+  <!-- Visor -->
+  <rect x="160" y="120" width="80" height="40" rx="20" fill="#0D1E3D" />
+  
+  <!-- Eyes - Now curved like a smile -->
+  <path d="M 175 140 C 180 130 190 130 195 140" stroke="#42A5F5" stroke-width="3" fill="none" class="animate-pulse" />
+  <path d="M 205 140 C 210 130 220 130 225 140" stroke="#42A5F5" stroke-width="3" fill="none" class="animate-pulse" />
+  
+  <!-- Body - Moved up to connect with head -->
+  <rect x="160" y="200" width="80" height="100" rx="40" fill="#F0F0F0" />
+  
+  <!-- Chest Panel -->
+  <rect x="170" y="210" width="60" height="40" rx="10" fill="#42A5F5" class="animate-pulse opacity-75" />
+  
+  <!-- Arms with shoulder connections - Shorter and bendier -->
+  <path d="M 160 220 C 150 220 140 230 150 250" stroke="#F0F0F0" stroke-width="20" fill="none" stroke-linecap="round" /> <!-- Left arm -->
+  <path d="M 240 220 C 250 220 260 230 250 250" stroke="#F0F0F0" stroke-width="20" fill="none" stroke-linecap="round" /> <!-- Right arm -->
+  
+  <!-- Legs - Moved up and made shorter -->
+  <rect x="170" y="290" width="20" height="30" rx="10" fill="#F0F0F0" /> <!-- Left leg -->
+  <rect x="210" y="290" width="20" height="30" rx="10" fill="#F0F0F0" /> <!-- Right leg -->
+  
+  <!-- Pink Decorative Elements -->
+  <circle cx="140" cy="80" r="5" fill="#F8C7D9" class="animate-pulse" />
+  <circle cx="260" cy="80" r="5" fill="#F8C7D9" class="animate-pulse" />
+</svg>
